@@ -1,11 +1,10 @@
 class PowertacAuctioneerCdaGrailsPlugin {
-    def groupId = 'org.powertac.plugins'
     // the plugin version
     def version = "0.1"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.6 > *"
     // the other plugins this plugin depends on
-    def dependsOn = ['org.powertac.plugins:powertac-common':'0.2']
+    def dependsOn = ['powertacCommon':'0.2.3 > *']
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp"
