@@ -34,6 +34,6 @@ grails.project.dependency.resolution = {
 
 grails.project.dependency.distribution = {
   remoteRepository(id: "powertacPlugins", url: "http://ibwstinger.iw.uni-karlsruhe.de/artifactory/plugins-release-local/") {
-    authentication username: "[your username]", password: "[your password]"
+    authentication username: "cblock", password: "tQbh2KWDv6OP3NO"
   }
 }
