@@ -34,3 +34,6 @@ grails.gorm.default.mapping = {
 	"user-type" type: org.joda.time.contrib.hibernate.PersistentLocalDateTime, class: org.joda.time.LocalDateTime
 	"user-type" type: org.joda.time.contrib.hibernate.PersistentPeriod, class: org.joda.time.Period
 }
+
+// Added by the powertac-common plugin:
+grails.validateable.packages = ['org.powertac.common.command']
