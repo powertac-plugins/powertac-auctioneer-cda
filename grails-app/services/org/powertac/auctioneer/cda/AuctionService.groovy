@@ -27,7 +27,7 @@ class AuctionService implements Auctioneer {
     return [shoutInstance]
   }
 
-  Shout processShoutDelete(ShoutDoDeleteCmd shoutDoDeleteCmd) {
+  List processShoutDelete(ShoutDoDeleteCmd shoutDoDeleteCmd) {
     return null  //To change body of implemented methods use File | Settings | File Templates.
   }
 
