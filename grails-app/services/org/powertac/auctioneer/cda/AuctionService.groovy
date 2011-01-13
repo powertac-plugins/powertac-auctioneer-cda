@@ -1,7 +1,6 @@
 package org.powertac.auctioneer.cda
 
 import org.powertac.common.Broker
-import org.powertac.common.Competition
 import org.powertac.common.IdGenerator
 import org.powertac.common.Shout
 import org.powertac.common.command.ShoutDoCreateCmd
@@ -38,25 +37,4 @@ class AuctionService implements Auctioneer {
   List clearMarket() {
     return null  //To change body of implemented methods use File | Settings | File Templates.
   }
-
-  void competitionBeforeStart(Competition competition) {
-    //To change body of implemented methods use File | Settings | File Templates.
-  }
-
-  void competitionAfterStart(Competition competition) {
-    //To change body of implemented methods use File | Settings | File Templates.
-  }
-
-  void competitionBeforeStop(Competition competition) {
-    //To change body of implemented methods use File | Settings | File Templates.
-  }
-
-  void competitionAfterStop(Competition competition) {
-    //To change body of implemented methods use File | Settings | File Templates.
-  }
-
-  void competitionReset(Competition competition) {
-    //To change body of implemented methods use File | Settings | File Templates.
-  }
-
 }
