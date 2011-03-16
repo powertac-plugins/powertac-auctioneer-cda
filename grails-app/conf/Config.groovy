@@ -37,3 +37,5 @@ grails.gorm.default.mapping = {
 
 // Added by the powertac-common plugin:
 grails.validateable.packages = ['org.powertac.common.command']
+grails.views.default.codec="none" // none, html, base64
+grails.views.gsp.encoding="UTF-8"
